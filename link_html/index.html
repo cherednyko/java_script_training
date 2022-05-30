@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Link HTML</title>
+    <script src="main.js"></script>
+    <script>
+        document.write("Linked script inside header.\n");
+        console.log("Linked script inside header.");
+    </script>
+</head>
+<body>
+<section>Body section</section>
+<script>
+    document.write("Linked script inside body.\n");
+    console.log("Linked script inside body.");
+</script>
+
+<p id="demo"></p>
+
+<script>
+    document.getElementById("demo").innerHTML = "Linked script inserted to tag inside body.";
+</script>
+
+<script src="main.js"></script>
+</body>
+</html>

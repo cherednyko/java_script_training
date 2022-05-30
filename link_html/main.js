@@ -1,0 +1,1 @@
+console.log("External linked script to html document.");
