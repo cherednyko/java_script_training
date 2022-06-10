@@ -1,4 +1,4 @@
-function TestObject(name, count){
+export function TestObject(name, count){
     this.name = name;
     this.count = count;
 }

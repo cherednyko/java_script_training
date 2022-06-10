@@ -1,7 +1,4 @@
-function TestObject(name, count){
-    this.name = name;
-    this.count = count;
-}
+import {TestObject} from "./iterables.js";
 
 let item1 = new TestObject("first", 1);
 let item2 = new TestObject("second", 2);
